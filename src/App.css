@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+  margin:50px ;
+}
+.title{
+  margin: 50px 30px 50px 30px;
+}
+.taskNum{
+  margin-right: 10px;
+}
+
+.bg{
+  background-color: rgb(166, 209, 219);
+  color:rgb(105, 94, 83);
+  border-radius: 4px;
+  position: relative;
+  padding: 10px;
+  margin-bottom: 10px;
+ text-align: left;
+}
+
+.iconsWrap{
+  position: absolute;
+  top:50%;
+  transform: translateY(-50%);
+  right: 15px;
+  width: auto;
+  display: inline-block;
+}
+
+.iconsWrap span{
+  display: inline-block;
+  margin: 10px;
+  cursor: pointer;
+  color: white;
+}
+
+.iconsWrap span:nth-child(2):hover{
+  color: crimson;
+}
+
+.iconsWrap span:first-child:hover{
+  color: greenyellow;
+}
+
